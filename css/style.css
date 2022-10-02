@@ -1,0 +1,82 @@
+body{
+    background-color: #ffefd9;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+    cursor: pointer;
+}
+
+.logokapsama,.logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    cursor: pointer;
+}
+.ustbar{
+    color:gray;
+    font-size: 24px;
+    float: left;
+    margin-left: 20px;
+}
+a:hover{
+    color: black;
+}
+
+.yemekadlari{
+cursor: pointer;
+}
+
+.ustmenu{
+    height: 100px;
+    padding-top: 100px;
+    overflow: hidden;
+    width: auto;
+    float: left;
+    padding-right: 50px;
+}
+
+section{
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+.footer{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    bottom:-50px;
+    width: 100%;
+}
+
+.footerp{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.yemekresimleri{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.yemekresimleri:hover{
+    transform: scale(1.1);
+}
+
+.hakkimizda{
+    border:1px solid gray;
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-size: 12px;
+    padding: 3px;
+}
